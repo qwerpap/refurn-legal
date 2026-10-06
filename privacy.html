@@ -1,7 +1,36 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Refurn — Privacy Policy</title><style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.6;color:#3B322D;background:#FBF3EA}h1,h2{font-family:Georgia,serif}h2{margin-top:28px}a{color:#B0553E}</style></head><body><h1>Refurn — Privacy Policy</h1><p><em>Last updated: September 29, 2026</em></p><p>Refurn redesigns a photo of your room with AI while keeping the walls, floor and windows as they are. We built it to keep your rooms on your iPhone.</p>
-<h2>What stays on your device</h2><p>Your room photos, the designs Refurn makes, your quiz answers and settings are stored only on your iPhone. There is no account and no server copy of your designs.</p>
-<h2>Photos you send for a redesign</h2><p>Only after you agree in the app, the one room photo you choose for a redesign is sent to our own server on Cloudflare, which passes it to an image model (Cloudflare Workers AI) to create the design and returns the picture. The photo is used only to answer that request and is not stored, sold, shared for advertising or used to train models. A random install code (not linked to you) is sent with it so we can apply the weekly limit. Please avoid photographing people.</p>
-<h2>Purchases and analytics</h2><p>Subscriptions are handled by Apple. We use Adapty to confirm your subscription, measure paywall views, purchases and onboarding steps, and attribute installs from Apple Ads. Adapty receives an anonymous app profile ID, purchase events, your answers to the style quiz and, as part of a normal network request, your IP address (used to determine the country). We don't collect IDFA, use advertising SDKs or sell data.</p>
-<h2>Photos access</h2><p>Refurn uses the camera only when you tap Take photo, and asks for add-only access to Photos only to save a design when you tap Save. Choosing a photo uses Apple's picker, which gives Refurn only the photo you select.</p>
-<h2>Children</h2><p>Refurn is not directed at children under 13.</p>
-<h2>Deleting data</h2><p>Delete any design in the app, or delete the app to remove everything stored on your device.</p><h2>Contact</h2><p><a href="mailto:netkaktakto@gmail.com">netkaktakto@gmail.com</a></p><p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></p></body></html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Privacy Policy · Refurn</title><style>
+:root{--bg:#F6F1EA;--panel:#FFFFFF;--ink:#231D17;--mute:#74685B;--acc:#B4532A;--line:#E2D8CA}
+@media(prefers-color-scheme:dark){:root{--bg:#1B1713;--panel:#26201A;--ink:#F0E8DD;--mute:#B2A594;--acc:#E88A5B;--line:#3C332A}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Avenir Next","Helvetica Neue",Arial,sans-serif}
+.bar{border-bottom:1px solid var(--line);padding:14px 20px;display:flex;gap:18px;flex-wrap:wrap;align-items:baseline}
+.bar b{letter-spacing:.22em;text-transform:uppercase;font-size:13px;color:var(--acc)}.bar a{color:var(--mute);text-decoration:none;font-size:14px}.bar a:hover{color:var(--ink)}
+main{max-width:860px;margin:0 auto;padding:36px 20px 20px}h1{font-size:38px;line-height:1.1;margin:0 0 10px;font-weight:300;letter-spacing:-.01em}
+h2{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);margin:2.2em 0 .6em;border-top:1px solid var(--line);padding-top:14px}
+.short{background:var(--panel);border-left:4px solid var(--acc);padding:14px 18px;margin:18px 0;border-radius:0 8px 8px 0}
+table{width:100%;border-collapse:collapse;background:var(--panel);font-size:15px}th,td{text-align:left;vertical-align:top;padding:10px 12px;border:1px solid var(--line)}th{font-weight:600;background:transparent;color:var(--mute);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+a{color:var(--acc)}dl dt{font-weight:600;margin-top:1em}dl dd{margin:.2em 0 0}
+.foot{max-width:860px;margin:10px auto 40px;padding:0 20px;color:var(--mute);font-size:14px}.foot nav{display:none}
+@media(max-width:600px){h1{font-size:30px}table{font-size:14px}}
+</style></head>
+<body><div class="bar"><b>Refurn</b><a href="index.html">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></div><main><h1>Privacy Policy</h1>
+<div class="short"><b>In short.</b> Your room photo is sent to our AI service to make the redesign. We don't ask for an account. Purchases run through Apple and a subscription service.</div>
+<h2>What goes where</h2>
+<table><tr><th>Data</th><th>Goes to</th><th>Why</th></tr>
+<tr><td>The room photo you take or pick (resized to at most 1024 px)</td><td>Our rendering service on Cloudflare, which passes it to an AI image provider (Replicate, or Cloudflare Workers AI) and returns the picture</td><td>To generate the redesign. We do not keep the photo or the result on our server.</td></tr>
+<tr><td>A random install id, sent with each request</td><td>Our rendering service</td><td>Only to count your redesigns against the daily and weekly limits</td></tr>
+<tr><td>Your finished designs, history and settings</td><td>Stay on your iPhone</td><td>Shown in the app; deleting Refurn removes them</td></tr>
+<tr><td>Anonymous profile id, App Store receipt data, country, IP address, app version, device model, paywall and onboarding events</td><td>Adapty (adapty.io)</td><td>To validate purchases, show the right plan, measure the paywall and attribute installs from Apple Ads</td></tr>
+<tr><td>Payment details</td><td>Apple only</td><td>We never see them</td></tr></table>
+<h2>Camera and Photos</h2>
+<p>The camera starts only when you choose Take photo. Room photos from your library come through Apple's photo picker, so Refurn sees just the picture you select. Refurn asks for permission to add pictures to your library so Save to Photos works; it does not read the rest of your library.</p>
+<h2>What the AI providers do</h2>
+<p>The image is processed by the provider named above under its own terms. We send the photo and a fixed instruction written on our server; we do not send your name, email or location. Because the picture may show the inside of your home, avoid including people, documents or screens you would not want processed.</p>
+<h2>Tracking and ads</h2>
+<p>No advertising inside the app, no advertising identifier, no tracking across other companies' apps or sites, and no sale of personal data. The IP address passed to Adapty is used for country-level pricing and Apple Ads attribution.</p>
+<h2>Your choices</h2>
+<dl><dt>Delete designs</dt><dd>Remove them in the app, or delete Refurn.</dd><dt>Stop the camera or photos access</dt><dd>iOS Settings, Refurn.</dd><dt>Ask about your data</dt><dd>Write to us; because we hold no account, we can only find data by the anonymous profile id that the Send feedback email adds along with the app and iOS versions.</dd></dl>
+<h2>Children</h2>
+<p>Refurn is not aimed at children under 13 and we do not knowingly collect their information.</p></main>
+<footer class="foot"><nav></nav><p>Questions: <a href="mailto:netkaktakto@gmail.com">netkaktakto@gmail.com</a> · Last updated October 6, 2026</p></footer>
+</body></html>
